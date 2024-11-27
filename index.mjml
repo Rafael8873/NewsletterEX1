@@ -1,4 +1,4 @@
-<mjml>
+<mjml lang="pt">
 
   <mj-head>
 
@@ -6,11 +6,21 @@
       <mj-text align="center" color="#555" />
       <mj-section background-color="#fff" />
     </mj-attributes>
-
+		<mj-title>A minha primeira Newsletter</mj-title>
   </mj-head>
 
   <mj-body background-color="#eee">
-    <mj-section>
+    
+         <mj-section background-color="#F0F0F0">
+       <mj-column>
+         <mj-text align="center">
+           <a target="_blank" href="https://rafael8873.github.io/NewsletterEX1/"><span style="font-size:12 px">Versão online</span>
+           </a>
+         </mj-text>
+       </mj-column>
+      </mj-section>
+    
+    <mj-section background-color="#ffb703">
 
       <mj-column>
         <mj-text>
@@ -24,6 +34,17 @@
         </mj-text>
       </mj-column>
 
+    </mj-section>
+    
+    <mj-section>
+    <mj-column>
+      
+      <mj-button border-radius="50px" href="https://youtube.com" font-family="Helvetica" background-color="#f45e43" color="white">
+          Don't click me!
+
+
+      </mj-button>
+      </mj-column>
     </mj-section>
   </mj-body>
 </mjml>
